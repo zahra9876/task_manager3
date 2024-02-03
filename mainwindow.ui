@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1397</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>256</width>
+      <height>431</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1397</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuorgenization">
+    <property name="title">
+     <string>orgenization</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionsee_organizations"/>
+    <addaction name="separator"/>
+    <addaction name="actionremove_orgenization"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionadd_organization"/>
+    <addaction name="separator"/>
+    <addaction name="actionedit_Organization"/>
+   </widget>
+   <widget class="QMenu" name="menuTeam">
+    <property name="title">
+     <string>Team</string>
+    </property>
+   </widget>
+   <addaction name="menuorgenization"/>
+   <addaction name="menuTeam"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionadd_organization">
+   <property name="text">
+    <string>add organization</string>
+   </property>
+  </action>
+  <action name="actionsee_organizations">
+   <property name="text">
+    <string>see organizations</string>
+   </property>
+  </action>
+  <action name="actionremove_orgenization">
+   <property name="text">
+    <string>remove orgenization</string>
+   </property>
+  </action>
+  <action name="actionedit_Organization">
+   <property name="text">
+    <string>edit Organization</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
