@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1397</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget_task">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>256</width>
+      <height>461</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_arc">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>310</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>270</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>archived task</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_archived">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>270</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>search</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addArchive">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>470</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DeleteArchive">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>470</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>delete</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>50</y>
+      <width>226</width>
+      <height>103</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>create task</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string>add task to team</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>edit task</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>add task to oranize</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>delete task</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="text">
+        <string>add task to user</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>70</y>
+      <width>551</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>organization</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2" rowspan="2">
+      <widget class="QLineEdit" name="team_s"/>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>all task</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" rowspan="2">
+      <widget class="QLineEdit" name="org_s"/>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>team</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QToolButton" name="toolButton_5">
+       <property name="text">
+        <string>search</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QToolButton" name="toolButton_7">
+       <property name="text">
+        <string>search</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QToolButton" name="toolButton_6">
+       <property name="text">
+        <string>search</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1397</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuorgenization">
+    <property name="title">
+     <string>orgenization</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionsee_organizations"/>
+    <addaction name="separator"/>
+    <addaction name="actionremove_orgenization"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionadd_organization"/>
+    <addaction name="separator"/>
+    <addaction name="actionedit_Organization"/>
+   </widget>
+   <widget class="QMenu" name="menuTeam">
+    <property name="title">
+     <string>Team</string>
+    </property>
+   </widget>
+   <addaction name="menuorgenization"/>
+   <addaction name="menuTeam"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionadd_organization">
+   <property name="text">
+    <string>add organization</string>
+   </property>
+  </action>
+  <action name="actionsee_organizations">
+   <property name="text">
+    <string>see organizations</string>
+   </property>
+  </action>
+  <action name="actionremove_orgenization">
+   <property name="text">
+    <string>remove orgenization</string>
+   </property>
+  </action>
+  <action name="actionedit_Organization">
+   <property name="text">
+    <string>edit Organization</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
